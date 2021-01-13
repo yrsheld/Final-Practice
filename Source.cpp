@@ -10,7 +10,7 @@ int main()
 		cin >> A >> B >> C >> D;
 		//cout << A << B << C << D << endl;
 		//int a[100010] = { 0 };
-		int ans = 0;
+		long int ans = 0;
 		for (int j = A; j <= B; j++) {
 			a[j + B] += 1;
 			a[j + C + 1] -= 1;
